@@ -2,17 +2,20 @@
   margin: 0;
   padding: 0;
 }
+
 body {
   background-color: white;
   font-family: Helvetica, sans-serif;
   font-weight: 100;
 }
+
 #wrapper {
   background-color: rgb(255, 255, 255);
   display: flex;
   flex-direction: column;
   gap: 55px;
 }
+
 #headerContainer {
   position: fixed;
   height: 50px;
@@ -23,11 +26,9 @@ body {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  background: linear-gradient(
-    133deg,
-    rgb(255, 255, 255, 0.2),
-    rgb(255, 255, 255, 0.5)
-  );
+  background: linear-gradient(133deg,
+      rgb(255, 255, 255, 0.2),
+      rgb(255, 255, 255, 0.5));
   -webkit-backdrop-filter: blur(10px);
   backdrop-filter: blur(10px);
 }
@@ -39,33 +40,121 @@ body {
   list-style: none;
   padding-right: 30px;
 }
+
 #navContainer ul li a {
   color: black;
   text-decoration: none;
   border-bottom: 1px solid rgba(0, 0, 0, 0);
   font-size: 1.1rem;
 }
+
 #navContainer ul li a:hover {
   color: #0080ff;
 }
+
+#logotipo {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 3px;
+  margin-left: 30px;
+  user-select: none;
+}
+
+#logotipo span {
+  color: #0080ff;
+  font-size: 1.6rem;
+  font-weight: 500;
+}
+
+
+
+
 #seccionInicio {
   background-image: url("../media/wave.svg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   height: 60vh;
+  max-height: 700px;
   display: flex;
   flex-direction: column;
   justify-content: center;
-
+  align-items: center;
+  gap: 100px;
   box-shadow: 0px 0px 10px lightgray;
+  margin-top: 150px;
 }
-#seccionInicio div {
+
+#contenedorArribaInfo {
   display: flex;
-  flex-direction: row;
+  width: 100%;
+  max-width: 2000px;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 40px;
+
+}
+
+#nombre {
+  font-size: 2.5rem;
+  color: #0080ff;
+  font-weight: 100;
+  font-family: sans-serif;
+  user-select: none;
+}
+
+#contenedorAbajoInfo {
+  display: flex;
+  width: 100%;
+  max-width: 2000px;
+  justify-content: space-around;
   align-items: center;
 }
+
 #articlePersonal {
   display: flex;
   flex-direction: column;
+  gap: 30px;
+  background: linear-gradient(133deg,
+      rgba(107, 106, 106, 0.1),
+      rgba(145, 145, 145, 0.3));
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  padding: 30px 70px;
+  border-radius: 10px;
+  justify-content: center;
+  align-items: center;
+
+}
+
+#fotoPersonal {
+  width: 100%;
+  max-width: 400px;
+  border-radius: 50%;
+  box-shadow: 0px 0px 20px 5px gray;
+}
+
+.logoContacto {
+  width: 50px;
+  opacity: 0.7;
+  border-radius: 50%;
+  padding: 3px;
+}
+
+.logoContacto:hover {
+  opacity: 1;
+  box-shadow: 0px 0px 5px gray;
+  cursor: pointer;
+}
+
+.Curriculum {
+  margin-top: 40px;
+  padding: 10px 30px;
+  text-decoration: none;
+  background-color: #0080ff;
+  color: white;
+  font-size: 1.2rem;
+  border-radius: 5px;
 }

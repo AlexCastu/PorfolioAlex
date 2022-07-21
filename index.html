@@ -13,11 +13,18 @@
   <body>
     <div id="wrapper">
       <header id="headerContainer">
-        <div>LOGO</div>
+        <div id="logotipo">
+          <img src="./media/menor.svg" alt="icono menor" />
+          <span>ACC</span>
+          <img src="./media/mayor.svg" alt="icono mayor" />
+        </div>
         <nav id="navContainer">
           <ul>
             <li>
-              <a class="hvr-underline-from-center" href="">Descripcion</a>
+              <a class="hvr-underline-from-center" href="">Home</a>
+            </li>
+            <li>
+              <a class="hvr-underline-from-center" href="">Sobre mi</a>
             </li>
             <li><a class="hvr-underline-from-center" href="">Estudios</a></li>
             <li><a class="hvr-underline-from-center" href="">Proyectos</a></li>
@@ -26,10 +33,16 @@
       </header>
       <main>
         <section id="seccionInicio">
-          <div>
-            <article><img src="" alt="Foto Alex" /></article>
+          <div id="contenedorArribaInfo">
+            <article>
+              <img
+                src="./media/fotoPersonal.png"
+                alt="Foto Alex"
+                id="fotoPersonal"
+              />
+            </article>
             <article id="articlePersonal">
-              <h1>Alex Constantin Castu</h1>
+              <p id="nombre">Alex Constantin Castu</p>
               <div class="text">
                 <p>Desarrollador</p>
                 <div>
@@ -38,12 +51,34 @@
                   <span class="word micolor">Full Stack</span>
                 </div>
               </div>
+
+              <a
+                class="Curriculum hvr-sweep-to-bottom"
+                href="./media/pruebaCV.pdf"
+                download="./media/pruebaCV.pdf"
+                >Descargar CV</a
+              >
             </article>
           </div>
-          <div>
-            <button>boton 1</button>
-            <button>boton 1</button>
-            <button>boton 1</button>
+          <div id="contenedorAbajoInfo">
+            <a href="https://www.linkedin.com/in/alex-constantin-castu/"
+              ><img
+                class="logoContacto hvr-hang"
+                src="./media/icololinkedin.svg"
+                alt="Linkedin"
+            /></a>
+            <a href="mailto:alexcastu@gmail.com"
+              ><img
+                class="logoContacto hvr-hang"
+                src="./media/iconoemail.png"
+                alt="Email"
+            /></a>
+            <a href="https://github.com/AlexCastu"
+              ><img
+                class="logoContacto hvr-hang"
+                src="./media/iconogithub.svg"
+                alt="Github"
+            /></a>
           </div>
         </section>
       </main>
