@@ -78,7 +78,7 @@
 
               <a
                 class="Curriculum hvr-sweep-to-bottom"
-                href="./media/pruebaCV.pdf"
+                href="./media/CVAlex.pdf"
                 download="./media/pruebaCV.pdf"
                 >Descargar CV</a
               >
@@ -126,7 +126,7 @@
           </article>
         </section>
         <section id="seccionConocimientos">
-          <h1>Conocimientos</h1>
+          <h1 class="titulosSecciones">Conocimientos</h1>
           <article>
             <div>
               <img src="./media/html.png" alt="" />
@@ -170,8 +170,61 @@
             </div>
           </article>
         </section>
-        <section>
-          <h1>Proyectos</h1>
+        <section class="secciones" id="proyectos">
+          <h1 class="titulosSecciones">Proyectos</h1>
+          <div>
+            <article class="fondosProyectos" id="quiz">
+              <div class="descripcionProyectos">
+                <h1>Quiz</h1>
+                <p>
+                  Proyecto para TheBridge para finalizar la parte del Front. Es
+                  un juego de preguntas.Las preguntas las consultamos mediante
+                  la consumicion d una api de preguntas, posteriormente
+                  insertamos preguntas des Firebase. La misma plataforma la
+                  usamos para dar de alta el usuario y la autentificacion
+                </p>
+                <div>Html,CSS,JS,Firebase,API`s</div>
+              </div>
+            </article>
+            <article class="fondosProyectos" id="cronometro">
+              <div class="descripcionProyectos">
+                <h1>Cronometro</h1>
+                <p>
+                  Aplicacion de cronometro, usamos el LocalStorage para gurdar
+                  las sesiones en local y asi poder consultarlas a posteriori.Se
+                  guardan las vueltas siempre que guardas,tienes un temporizados
+                  de 10 segundos y puedes pausar y reestablecer las veces que
+                  quieras.
+                </p>
+                <div>CSS,HTML,JS</div>
+              </div>
+            </article>
+            <article class="fondosProyectos" id="rampUp">
+              <div class="descripcionProyectos">
+                <h1>Ramp UP</h1>
+                <p>
+                  Primer ejercicio grande en TheBridge, consta de una pagina en
+                  la que desarrollamos los conocimientos adquiridos en la
+                  primera fase del BootCamp.
+                </p>
+                <div>HTML,CSS</div>
+              </div>
+            </article>
+            <article class="fondosProyectos" id="perritos">
+              <div class="descripcionProyectos">
+                <h1>API Dog</h1>
+                <p>
+                  Primeras practicas en JS de consumo de APIS usando "Fetch".Se
+                  trata de una aplicacion que consume una API de perritos,en la
+                  cual hacemos varias consultas dependiendo de lo que busque el
+                  usario.Consta de una parte que muestra todas las razas de
+                  perro, otra de una imagen aleatoria de la api y un select para
+                  el usuario que muestre la foto de la busqueda.
+                </p>
+                <div>HTML,CSS,JS</div>
+              </div>
+            </article>
+          </div>
         </section>
       </main>
     </div>
