@@ -1,0 +1,49 @@
+.pildorasLenguajes {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: auto;
+  gap: 10px;
+  font-size: 0.8rem;
+}
+
+.html {
+  background-color: #f06529;
+  padding: 3px 7px;
+  border-radius: 20px;
+}
+.css {
+  background-color: #2965f1;
+  padding: 3px 7px;
+  border-radius: 20px;
+}
+.JS {
+  background-color: #f0db4f;
+  padding: 3px 7px;
+  border-radius: 20px;
+  color: black;
+}
+
+.fireBase {
+  background-color: #f6820d;
+  padding: 3px 7px;
+  border-radius: 20px;
+  color: black;
+}
+.botonvisitarProyecto {
+  border-radius: 20px;
+  border: none;
+  outline: none;
+}
+.botonvisitarProyecto a {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 6px;
+  font-style: none;
+  padding: 10px;
+}
+.botonvisitarProyecto a img {
+  width: 25px;
+}

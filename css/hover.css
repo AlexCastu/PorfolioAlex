@@ -1878,7 +1878,7 @@
   box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   position: relative;
   overflow: hidden;
-  background: #e1e1e1;
+  background: white;
   -webkit-transition-property: color;
   transition-property: color;
   -webkit-transition-duration: 0.3s;
@@ -1893,7 +1893,7 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background: #2098d1;
+  background: #0080ff;
   border-radius: 100%;
   -webkit-transform: scale(0);
   transform: scale(0);
@@ -2962,13 +2962,17 @@
   height: 10px;
   width: 90%;
   opacity: 0;
-  background: -webkit-radial-gradient(center,
-      ellipse,
-      rgba(0, 0, 0, 0.35) 0%,
-      rgba(0, 0, 0, 0) 80%);
-  background: radial-gradient(ellipse at center,
-      rgba(0, 0, 0, 0.35) 0%,
-      rgba(0, 0, 0, 0) 80%);
+  background: -webkit-radial-gradient(
+    center,
+    ellipse,
+    rgba(0, 0, 0, 0.35) 0%,
+    rgba(0, 0, 0, 0) 80%
+  );
+  background: radial-gradient(
+    ellipse at center,
+    rgba(0, 0, 0, 0.35) 0%,
+    rgba(0, 0, 0, 0) 80%
+  );
   /* W3C */
   -webkit-transition-duration: 0.3s;
   transition-duration: 0.3s;
@@ -3022,24 +3026,32 @@
 
 .hvr-shadow-radial:before {
   bottom: 100%;
-  background: -webkit-radial-gradient(50% 150%,
-      ellipse,
-      rgba(0, 0, 0, 0.6) 0%,
-      rgba(0, 0, 0, 0) 80%);
-  background: radial-gradient(ellipse at 50% 150%,
-      rgba(0, 0, 0, 0.6) 0%,
-      rgba(0, 0, 0, 0) 80%);
+  background: -webkit-radial-gradient(
+    50% 150%,
+    ellipse,
+    rgba(0, 0, 0, 0.6) 0%,
+    rgba(0, 0, 0, 0) 80%
+  );
+  background: radial-gradient(
+    ellipse at 50% 150%,
+    rgba(0, 0, 0, 0.6) 0%,
+    rgba(0, 0, 0, 0) 80%
+  );
 }
 
 .hvr-shadow-radial:after {
   top: 100%;
-  background: -webkit-radial-gradient(50% -50%,
-      ellipse,
-      rgba(0, 0, 0, 0.6) 0%,
-      rgba(0, 0, 0, 0) 80%);
-  background: radial-gradient(ellipse at 50% -50%,
-      rgba(0, 0, 0, 0.6) 0%,
-      rgba(0, 0, 0, 0) 80%);
+  background: -webkit-radial-gradient(
+    50% -50%,
+    ellipse,
+    rgba(0, 0, 0, 0.6) 0%,
+    rgba(0, 0, 0, 0) 80%
+  );
+  background: radial-gradient(
+    ellipse at 50% -50%,
+    rgba(0, 0, 0, 0.6) 0%,
+    rgba(0, 0, 0, 0) 80%
+  );
 }
 
 .hvr-shadow-radial:hover:before,
@@ -3417,7 +3429,6 @@
 
 /* Icon Down */
 @-webkit-keyframes hvr-icon-down {
-
   0%,
   50%,
   100% {
@@ -3433,7 +3444,6 @@
 }
 
 @keyframes hvr-icon-down {
-
   0%,
   50%,
   100% {
@@ -3475,7 +3485,6 @@
 
 /* Icon Up */
 @-webkit-keyframes hvr-icon-up {
-
   0%,
   50%,
   100% {
@@ -3491,7 +3500,6 @@
 }
 
 @keyframes hvr-icon-up {
-
   0%,
   50%,
   100% {
