@@ -26,6 +26,13 @@
   color: black;
 }
 
+.react {
+  background-color: #282c34;
+  padding: 3px 7px;
+  border-radius: 20px;
+  color: #61DAFB
+}
+
 .fireBase {
   background-color: #f6820d;
   padding: 3px 7px;
