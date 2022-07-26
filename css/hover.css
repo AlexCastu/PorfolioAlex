@@ -1488,6 +1488,7 @@
   transition-property: color;
   -webkit-transition-duration: 0.3s;
   transition-duration: 0.3s;
+  color: white;
 }
 
 .hvr-sweep-to-right:before {
@@ -1498,7 +1499,9 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background: #2098d1;
+  border-radius: 5px;
+  background: black;
+  color: white;
   -webkit-transform: scaleX(0);
   transform: scaleX(0);
   -webkit-transform-origin: 0 50%;
@@ -2555,6 +2558,8 @@
 
 /* Underline From Center */
 .hvr-underline-from-center {
+  padding: 0;
+  margin: 0;
   display: inline-block;
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
@@ -2962,17 +2967,13 @@
   height: 10px;
   width: 90%;
   opacity: 0;
-  background: -webkit-radial-gradient(
-    center,
-    ellipse,
-    rgba(0, 0, 0, 0.35) 0%,
-    rgba(0, 0, 0, 0) 80%
-  );
-  background: radial-gradient(
-    ellipse at center,
-    rgba(0, 0, 0, 0.35) 0%,
-    rgba(0, 0, 0, 0) 80%
-  );
+  background: -webkit-radial-gradient(center,
+      ellipse,
+      rgba(0, 0, 0, 0.35) 0%,
+      rgba(0, 0, 0, 0) 80%);
+  background: radial-gradient(ellipse at center,
+      rgba(0, 0, 0, 0.35) 0%,
+      rgba(0, 0, 0, 0) 80%);
   /* W3C */
   -webkit-transition-duration: 0.3s;
   transition-duration: 0.3s;
@@ -3026,32 +3027,24 @@
 
 .hvr-shadow-radial:before {
   bottom: 100%;
-  background: -webkit-radial-gradient(
-    50% 150%,
-    ellipse,
-    rgba(0, 0, 0, 0.6) 0%,
-    rgba(0, 0, 0, 0) 80%
-  );
-  background: radial-gradient(
-    ellipse at 50% 150%,
-    rgba(0, 0, 0, 0.6) 0%,
-    rgba(0, 0, 0, 0) 80%
-  );
+  background: -webkit-radial-gradient(50% 150%,
+      ellipse,
+      rgba(0, 0, 0, 0.6) 0%,
+      rgba(0, 0, 0, 0) 80%);
+  background: radial-gradient(ellipse at 50% 150%,
+      rgba(0, 0, 0, 0.6) 0%,
+      rgba(0, 0, 0, 0) 80%);
 }
 
 .hvr-shadow-radial:after {
   top: 100%;
-  background: -webkit-radial-gradient(
-    50% -50%,
-    ellipse,
-    rgba(0, 0, 0, 0.6) 0%,
-    rgba(0, 0, 0, 0) 80%
-  );
-  background: radial-gradient(
-    ellipse at 50% -50%,
-    rgba(0, 0, 0, 0.6) 0%,
-    rgba(0, 0, 0, 0) 80%
-  );
+  background: -webkit-radial-gradient(50% -50%,
+      ellipse,
+      rgba(0, 0, 0, 0.6) 0%,
+      rgba(0, 0, 0, 0) 80%);
+  background: radial-gradient(ellipse at 50% -50%,
+      rgba(0, 0, 0, 0.6) 0%,
+      rgba(0, 0, 0, 0) 80%);
 }
 
 .hvr-shadow-radial:hover:before,
@@ -3429,6 +3422,7 @@
 
 /* Icon Down */
 @-webkit-keyframes hvr-icon-down {
+
   0%,
   50%,
   100% {
@@ -3444,6 +3438,7 @@
 }
 
 @keyframes hvr-icon-down {
+
   0%,
   50%,
   100% {
@@ -3485,6 +3480,7 @@
 
 /* Icon Up */
 @-webkit-keyframes hvr-icon-up {
+
   0%,
   50%,
   100% {
@@ -3500,6 +3496,7 @@
 }
 
 @keyframes hvr-icon-up {
+
   0%,
   50%,
   100% {

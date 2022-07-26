@@ -34,6 +34,7 @@
 .navbar-item {
   margin: 0.4em;
   width: 100%;
+  text-align: center;
 }
 
 .home-link,
@@ -48,8 +49,8 @@
 .navbar-link {
   justify-content: center;
   width: 100%;
-  padding: 0.4em 0.8em;
   border-radius: 5px;
+  padding: 3px 0px;
 }
 
 .navbar-link:is(:focus, :hover) {
