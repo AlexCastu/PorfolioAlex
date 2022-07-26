@@ -383,3 +383,42 @@ body {
 .descrripPro span {
   line-height: 1.5;
 }
+
+#contenedorFooter {
+  background-color: #282c34;
+  color: whitesmoke;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 30px 0px;
+  justify-content: center;
+  align-items: center;
+}
+
+#contenedorFooter>#contacto {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+#contacto a {
+  padding: 10px;
+  border-radius: 5px;
+  background-color: black;
+  text-decoration: none;
+  color: white;
+  letter-spacing: 1px;
+
+}
+
+#contacto a:hover {
+  box-shadow: 0px 0px 10px gray;
+
+}
+
+#contenedorFooter>#proprietario {
+  font-size: 0.8rem;
+  color: gray;
+}
