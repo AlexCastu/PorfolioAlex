@@ -12,11 +12,13 @@
   padding: 3px 7px;
   border-radius: 20px;
 }
+
 .css {
   background-color: #2965f1;
   padding: 3px 7px;
   border-radius: 20px;
 }
+
 .JS {
   background-color: #f0db4f;
   padding: 3px 7px;
@@ -30,11 +32,13 @@
   border-radius: 20px;
   color: black;
 }
+
 .botonvisitarProyecto {
-  border-radius: 20px;
+  border-radius: 5px;
   border: none;
   outline: none;
 }
+
 .botonvisitarProyecto a {
   display: flex;
   flex-direction: row;
@@ -43,7 +47,15 @@
   gap: 6px;
   font-style: none;
   padding: 10px;
+  text-decoration: none;
+  color: black;
+  font-size: 1rem;
 }
+
+.botonvisitarProyecto a:hover {
+  color: white;
+}
+
 .botonvisitarProyecto a img {
   width: 25px;
 }
