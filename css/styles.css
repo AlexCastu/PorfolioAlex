@@ -188,7 +188,7 @@ body {
   color: #0080ff;
 }
 
-#seccionConocimientos article {
+#seccionConocimientos>#cardslenguajes {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -197,7 +197,7 @@ body {
   align-items: center;
 }
 
-#seccionConocimientos article div {
+#seccionConocimientos>#cardslenguajes div {
   display: flex;
   flex-direction: column;
   gap: 20px;
@@ -211,16 +211,16 @@ body {
   height: 150px;
 }
 
-#seccionConocimientos article div img {
+#seccionConocimientos>#cardslenguajes div img {
   width: 75px;
 }
 
-#seccionConocimientos article div p {
+#seccionConocimientos>#cardslenguajes div p {
   width: 75px;
   display: none;
 }
 
-#seccionConocimientos article div p {
+#seccionConocimientos>#cardslenguajes div p {
   width: 75px;
   display: flex;
   text-align: center;
@@ -238,11 +238,11 @@ body {
   }
 }
 
-#seccionConocimientos article div p {
+#seccionConocimientos>#cardslenguajes div p {
   display: none;
 }
 
-#seccionConocimientos article div:hover p {
+#seccionConocimientos>#cardslenguajes div:hover p {
   display: flex;
   animation: plenguajes 1s;
   animation-iteration-count: 1;
@@ -263,12 +263,12 @@ body {
   }
 }
 
-#seccionConocimientos article div img {
+#seccionConocimientos>#cardslenguajes div img {
   width: 100%;
   max-width: 80px;
 }
 
-#seccionConocimientos article div:hover img {
+#seccionConocimientos>#cardslenguajes div:hover img {
   animation: lenguajeAnimado 1s;
   animation-fill-mode: both;
 }
