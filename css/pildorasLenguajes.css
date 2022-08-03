@@ -2,43 +2,25 @@
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
   width: auto;
   gap: 10px;
   font-size: 0.8rem;
 }
 
-.html {
-  background-color: #f06529;
-  padding: 3px 7px;
-  border-radius: 20px;
+.pildorasLenguajes>img {
+  width: 35px;
+  background-color: white;
+  padding: 7px;
+  border-radius: 50%;
 }
 
-.css {
-  background-color: #2965f1;
-  padding: 3px 7px;
-  border-radius: 20px;
+.pildorasLenguajes>img:hover {
+  box-shadow: 0px 3px 10px 0px rgb(70, 70, 70);
 }
 
-.JS {
-  background-color: #f0db4f;
-  padding: 3px 7px;
-  border-radius: 20px;
-  color: black;
-}
 
-.react {
-  background-color: #282c34;
-  padding: 3px 7px;
-  border-radius: 20px;
-  color: #61DAFB
-}
-
-.fireBase {
-  background-color: #f6820d;
-  padding: 3px 7px;
-  border-radius: 20px;
-  color: black;
-}
 
 .botonvisitarProyecto {
   border-radius: 5px;
