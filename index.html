@@ -1,492 +1,339 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./css/styles.css" />
-    <link rel="stylesheet" href="./css/hover.css" />
-    <link rel="stylesheet" href="./css/textoCambiante.css" />
-    <link rel="stylesheet" href="./css/menuresponsive.css" />
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
-    <link rel="stylesheet" href="./css/pildorasLenguajes.css" />
-    <script defer src="./js/texto.js"></script>
-    <script defer src="./js/scroll.js"></script>
-    <script defer src="./js/menuResponsive.js"></script>
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <title>Portfolio Alex</title>
-  </head>
-  <body>
-    <script>
-      AOS.init();
-    </script>
-    <div id="wrapper">
-      <header id="navbar">
-        <nav class="navbar-container container">
-          <div id="logotipo">
-            <img src="./media/menor.svg" alt="icono menor" />
-            <span>ACC</span>
-            <img src="./media/mayor.svg" alt="icono mayor" />
-          </div>
-          <button
-            type="button"
-            id="navbar-toggle"
-            aria-controls="navbar-menu"
-            aria-label="Toggle menu"
-            aria-expanded="false"
-          >
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <div id="navbar-menu" aria-labelledby="navbar-toggle">
-            <ul class="navbar-links">
-              <li class="navbar-item">
-                <a class="navbar-link hvr-underline-from-center" href="#wrapper"
-                  >Inicio</a
-                >
-              </li>
-              <li class="navbar-item">
-                <a
-                  class="navbar-link hvr-underline-from-center"
-                  href="#anclaConocimientos"
-                  >Formación</a
-                >
-              </li>
-              <li class="navbar-item">
-                <a
-                  class="navbar-link hvr-underline-from-center"
-                  href="#anclaProyectos"
-                  >Proyectos</a
-                >
-              </li>
-            </ul>
-          </div>
-        </nav>
-      </header>
+   <head>
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="stylesheet" href="./css/styles.css" />
+      <link rel="stylesheet" href="./css/hover.css" />
+      <link rel="stylesheet" href="./css/textoCambiante.css" />
+      <link rel="stylesheet" href="./css/menuresponsive.css" />
+      <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+      <link rel="stylesheet" href="./css/pildorasLenguajes.css" />
+      <script defer src="./js/texto.js"></script>
+      <script defer src="./js/scroll.js"></script>
+      <script defer src="./js/menuResponsive.js"></script>
+      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+      <title>Portfolio Alex</title>
+   </head>
+   <body>
+      <script>
+         AOS.init();
+      </script>
+      <div id="wrapper">
+         <header id="navbar">
+            <nav class="navbar-container container">
+               <div id="logotipo">
+                  <img src="./media/menor.svg" alt="icono menor" />
+                  <span>ACC</span>
+                  <img src="./media/mayor.svg" alt="icono mayor" />
+               </div>
+               <button type="button" id="navbar-toggle" aria-controls="navbar-menu" aria-label="Toggle menu" aria-expanded="false">
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+               </button>
+               <div id="navbar-menu" aria-labelledby="navbar-toggle">
+                  <ul class="navbar-links">
+                     <li class="navbar-item">
+                        <a class="navbar-link hvr-underline-from-center" href="#wrapper">Inicio</a>
+                     </li>
+                     <li class="navbar-item">
+                        <a class="navbar-link hvr-underline-from-center" href="#anclaConocimientos">Formación</a>
+                     </li>
+                     <li class="navbar-item">
+                        <a class="navbar-link hvr-underline-from-center" href="#anclaProyectos">Proyectos</a>
+                     </li>
+                  </ul>
+               </div>
+            </nav>
+         </header>
 
-      <main>
-        <section id="seccionInicio">
-          <div id="contenedorArribaInfo">
-            <article>
-              <img
-                src="./media/fotoPersonal.png"
-                alt="Foto Alex"
-                id="fotoPersonal"
-              />
-            </article>
-            <article id="articlePersonal">
-              <p id="nombre">Alex Constantin Castu</p>
-              <div class="text">
-                <p>Desarrollador</p>
-                <div>
-                  <span class="word micolor">Frontend</span>
-                  <span class="word micolor">Backend</span>
-                  <span class="word micolor">Full Stack</span>
-                </div>
-              </div>
+         <main>
+            <section id="seccionInicio">
+               <div id="contenedorArribaInfo">
+                  <article>
+                     <img src="./media/fotoPersonal.png" alt="Foto Alex" id="fotoPersonal" />
+                  </article>
+                  <article id="articlePersonal">
+                     <p id="nombre">Alex Constantin Castu</p>
+                     <div class="text">
+                        <p>Desarrollador</p>
+                        <div>
+                           <span class="word micolor">Frontend</span>
+                           <span class="word micolor">Backend</span>
+                           <span class="word micolor">Full Stack</span>
+                        </div>
+                     </div>
 
-              <a
-                class="Curriculum hvr-sweep-to-bottom"
-                href="./media/CVAlex.pdf"
-                download="./media/pruebaCV.pdf"
-                >Descargar CV</a
-              >
-            </article>
-          </div>
-          <div id="contenedorAbajoInfo">
-            <a href="https://www.linkedin.com/in/alex-constantin-castu/"
-              ><img
-                title="Linkedin"
-                class="logoContacto hvr-hang"
-                src="./media/icololinkedin.svg"
-                alt="Linkedin"
-            /></a>
-            <a href="mailto:alexcastu@gmail.com"
-              ><img
-                title="Email"
-                class="logoContacto hvr-hang"
-                src="./media/iconoemail.png"
-                alt="Email"
-            /></a>
-            <a href="https://github.com/AlexCastu"
-              ><img
-                title="GitHub"
-                class="logoContacto hvr-hang"
-                src="./media/iconogithub.svg"
-                alt="Github"
-            /></a>
-          </div>
-        </section>
-        <section id="descripcionPersonal">
-          <article>
-            <p>Hola!</p>
-            <p>
-              Soy Alex, técnico superior en desarrollo de aplicaciones web(DAW),
-              y actualmente estudiante del BootCamp FullStack en TheBridge.
-            </p>
-            <p>
-              Apasionado en las nuevas tecnologías y siempre con mucho interés
-              por seguir aumentando mis conocimientos.
-            </p>
-            <p id="anclaConocimientos">
-              Dedicado, resolutivo, con gran capacidad de adaptación y empeñado
-              en llegar a ser un excelente desarrollador.
-            </p>
-          </article>
-        </section>
-        <section id="seccionConocimientos" data-aos="fade-right">
-          <h1 class="titulosSecciones">Formacion academica</h1>
-          <article class="formacion">
-            <div class="hvr-float">
-              <img src="./media/mern.png" alt="" />
-              <div>
-                <h3>BootCamp Full Stack</h3>
-                <small>Actualidad</small>
-              </div>
+                     <a class="Curriculum hvr-sweep-to-bottom" href="./media/CVAlex.pdf" download="./media/pruebaCV.pdf">Descargar CV</a>
+                  </article>
+               </div>
+               <div id="contenedorAbajoInfo">
+                  <a href="https://www.linkedin.com/in/alex-constantin-castu/"
+                     ><img title="Linkedin" class="logoContacto hvr-hang" src="./media/icololinkedin.svg" alt="Linkedin"
+                  /></a>
+                  <a href="mailto:alexcastu@gmail.com"><img title="Email" class="logoContacto hvr-hang" src="./media/iconoemail.png" alt="Email" /></a>
+                  <a href="https://github.com/AlexCastu"><img title="GitHub" class="logoContacto hvr-hang" src="./media/iconogithub.svg" alt="Github" /></a>
+               </div>
+            </section>
+            <section id="descripcionPersonal">
+               <article>
+                  <p>Hola!</p>
+                  <p>Soy Alex, técnico superior en desarrollo de aplicaciones web(DAW), y actualmente estudiante del BootCamp FullStack en TheBridge.</p>
+                  <p>Apasionado en las nuevas tecnologías y siempre con mucho interés por seguir aumentando mis conocimientos.</p>
+                  <p id="anclaConocimientos">Dedicado, resolutivo, con gran capacidad de adaptación y empeñado en llegar a ser un excelente desarrollador.</p>
+               </article>
+            </section>
+            <section id="seccionConocimientos" data-aos="fade-right">
+               <h1 class="titulosSecciones">Formacion academica</h1>
+               <article class="formacion">
+                  <div class="hvr-float">
+                     <img src="./media/mern.png" alt="" />
+                     <div>
+                        <h3>BootCamp Full Stack</h3>
+                        <small>Actualidad</small>
+                     </div>
 
-              <span
-                >BootCamp FullStack impartido por TheBridge donde se adquieren y
-                ponen en práctica los conocimientos de FrontEnd(HTML,
-                CSS,JavaScript, React,diseño responsive, flex, grid, consumo de
-                API`s... ) y BackEnd(Node, Express, Mongo...)</span
-              >
-            </div>
-            <div class="hvr-float">
-              <img src="./media/daw.png" alt="" />
-              <div>
-                <h3>G.S Desarrollo de aplicaciones Web</h3>
-                <small>2020</small>
-              </div>
+                     <span
+                        >BootCamp FullStack impartido por TheBridge donde se adquieren y ponen en práctica los conocimientos de FrontEnd(HTML, CSS,JavaScript,
+                        React,diseño responsive, flex, grid, consumo de API`s... ) y BackEnd(Node, Express, Mongo...)</span
+                     >
+                  </div>
+                  <div class="hvr-float">
+                     <img src="./media/daw.png" alt="" />
+                     <div>
+                        <h3>G.S Desarrollo de aplicaciones Web</h3>
+                        <small>2020</small>
+                     </div>
 
-              <span
-                >Técnico en desarrollo de aplicaciones web, cursado
-                presencialmente y donde adquirimos los conocimientos básicos de
-                programación web. Se usaron lenguajes como HTML, CSS,JS, PHP,C,
-                Javascript, JAVA y SQL además de otras herramientas como Xampp
-                como servidor para PHP.</span
-              >
-            </div>
-            <div class="hvr-float">
-              <img src="./media/smr.png" alt="" />
-              <div>
-                <h3>G.M Sistemas microinformáticos y redes</h3>
-                <small>2016</small>
-              </div>
+                     <span
+                        >Técnico en desarrollo de aplicaciones web, cursado presencialmente y donde adquirimos los conocimientos básicos de programación web. Se
+                        usaron lenguajes como HTML, CSS,JS, PHP,C, Javascript, JAVA y SQL además de otras herramientas como Xampp como servidor para PHP.</span
+                     >
+                  </div>
+                  <div class="hvr-float">
+                     <img src="./media/smr.png" alt="" />
+                     <div>
+                        <h3>G.M Sistemas microinformáticos y redes</h3>
+                        <small>2016</small>
+                     </div>
 
-              <span
-                >Técnico en sistemas, desarrollar actividades para
-                comercialización, montaje y reparación de equipos, redes y
-                servicios microinformáticas.</span
-              >
-            </div>
-          </article>
-          <h1 class="titulosSecciones">He trabajado con...</h1>
-          <article id="cardslenguajes">
-            <div
-              data-aos="fade-right"
-              data-aos-offset="300"
-              data-aos-easing="ease-in-sine"
-            >
-              <img src="./media/html.png" alt="Logo HTML" />
-              <p>HTML5</p>
-            </div>
-            <div
-              data-aos="fade-right"
-              data-aos-offset="300"
-              data-aos-easing="ease-in-sine"
-            >
-              <img src="./media/css.png" alt="LOGO CSS" />
-              <p>CSS3</p>
-            </div>
-            <div
-              data-aos="fade-right"
-              data-aos-offset="300"
-              data-aos-easing="ease-in-sine"
-            >
-              <img src="./media/bootstrap.png" alt="LOGO bootstrap" />
-              <p>Bootstrap</p>
-            </div>
-            <div
-              data-aos="fade-right"
-              data-aos-offset="300"
-              data-aos-easing="ease-in-sine"
-            >
-              <img src="./media/js.png" alt="LOGO JS" />
-              <p>JavaScript</p>
-            </div>
-            <div
-              data-aos="fade-right"
-              data-aos-offset="300"
-              data-aos-easing="ease-in-sine"
-            >
-              <img src="./media/react.png" alt="Logo ReactJS" />
-              <p>ReactJS</p>
-            </div>
-            <div
-              data-aos="fade-right"
-              data-aos-offset="300"
-              data-aos-easing="ease-in-sine"
-            >
-              <img src="./media/php.png" alt="Logo PHP" />
-              <p>PHP</p>
-            </div>
-            <div
-              data-aos="fade-right"
-              data-aos-offset="300"
-              data-aos-easing="ease-in-sine"
-            >
-              <img src="./media/node.png" alt="Logo Node" />
-              <p>NodeJS</p>
-            </div>
-            <div
-              data-aos="fade-right"
-              data-aos-offset="300"
-              data-aos-easing="ease-in-sine"
-            >
-              <img src="./media/express.png" alt="Logo Express" />
-              <p>ExpressJS</p>
-            </div>
-            <div
-              data-aos="fade-right"
-              data-aos-offset="300"
-              data-aos-easing="ease-in-sine"
-            >
-              <img src="./media/mongo.png" alt="Logo mondoDB" />
-              <p>MongoDB</p>
-            </div>
-            <div
-              data-aos="fade-right"
-              data-aos-offset="300"
-              data-aos-easing="ease-in-sine"
-            >
-              <img src="./media/sql.png" alt="logo SQL" />
-              <p>SQL</p>
-            </div>
-            <div
-              data-aos="fade-right"
-              data-aos-offset="300"
-              data-aos-easing="ease-in-sine"
-            >
-              <img
-                id="anclaProyectos"
-                src="./media/github.png"
-                alt="logo github"
-              />
-              <p>Git</p>
-            </div>
-            <div
-              data-aos="fade-right"
-              data-aos-offset="300"
-              data-aos-easing="ease-in-sine"
-            >
-              <img
-                id="anclaProyectos"
-                src="./media/firebase.png"
-                alt="logo firebase"
-              />
-              <p>Firebase</p>
-            </div>
-          </article>
-        </section>
-        <section class="secciones" id="proyectos">
-          <h1 class="titulosSecciones">Proyectos</h1>
-          <div>
-            <article
-              data-aos="fade-right"
-              class="fondosProyectos"
-              id="porfolio"
-            >
-              <div class="descripcionProyectos">
-                <h1>React - Porfolio</h1>
-                <div class="descrripPro">
-                  <p>Descripción</p>
-                  <span>
-                    Proyecto personal creado con REACT a petición de mi mentor,
-                    se trata de un porfolio donde se puede descargar el CV y ver
-                    algunas tecnologías que se conocen así como ver proyectos,
-                    todo esto usando los componentes.
-                  </span>
-                </div>
+                     <span
+                        >Técnico en sistemas, desarrollar actividades para comercialización, montaje y reparación de equipos, redes y servicios
+                        microinformáticas.</span
+                     >
+                  </div>
+               </article>
+               <h1 class="titulosSecciones">He trabajado con...</h1>
+               <article id="cardslenguajes">
+                  <div data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
+                     <img src="./media/html.png" alt="Logo HTML" />
+                     <p>HTML5</p>
+                  </div>
+                  <div data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
+                     <img src="./media/css.png" alt="LOGO CSS" />
+                     <p>CSS3</p>
+                  </div>
+                  <div data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
+                     <img src="./media/bootstrap.png" alt="LOGO bootstrap" />
+                     <p>Bootstrap</p>
+                  </div>
+                  <div data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
+                     <img src="./media/js.png" alt="LOGO JS" />
+                     <p>JavaScript</p>
+                  </div>
+                  <div data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
+                     <img src="./media/react.png" alt="Logo ReactJS" />
+                     <p>ReactJS</p>
+                  </div>
+                  <div data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
+                     <img src="./media/php.png" alt="Logo PHP" />
+                     <p>PHP</p>
+                  </div>
+                  <div data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
+                     <img src="./media/node.png" alt="Logo Node" />
+                     <p>NodeJS</p>
+                  </div>
+                  <div data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
+                     <img src="./media/express.png" alt="Logo Express" />
+                     <p>ExpressJS</p>
+                  </div>
+                  <div data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
+                     <img src="./media/mongo.png" alt="Logo mondoDB" />
+                     <p>MongoDB</p>
+                  </div>
+                  <div data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
+                     <img src="./media/sql.png" alt="logo SQL" />
+                     <p>SQL</p>
+                  </div>
+                  <div data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
+                     <img id="anclaProyectos" src="./media/github.png" alt="logo github" />
+                     <p>Git</p>
+                  </div>
+                  <div data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
+                     <img id="anclaProyectos" src="./media/firebase.png" alt="logo firebase" />
+                     <p>Firebase</p>
+                  </div>
+               </article>
+            </section>
+            <section class="secciones" id="proyectos">
+               <h1 class="titulosSecciones">Proyectos</h1>
+               <div>
+                  <article data-aos="fade-right" class="fondosProyectos" id="parapentes">
+                     <div class="descripcionProyectos">
+                        <h1>React - Tienda Parapentes</h1>
+                        <div class="descrripPro">
+                           <p>Descripción</p>
+                           <span>
+                              Proyecto estilo tienda funcional con REACT para finalizar el bootcamp FullStack TheBridge.BackEnd: Express.js | MongoDB desplegado
+                              en FLY.IO / FrontEnd : ReactJS-Vite y desplegado en Vercel.
+                           </span>
+                        </div>
 
-                <div class="pildorasLenguajes">
-                  <img src="./media/html.png" class="hvr-bob" alt="Logo HTML" />
-                  <img src="./media/css.png" class="hvr-bob" alt="Logo CSS" />
-                  <img
-                    src="./media/react.png"
-                    class="hvr-bob"
-                    alt="Logo REACT"
-                  />
-                </div>
-                <button class="hvr-sweep-to-right botonvisitarProyecto">
-                  <a href="https://alexcastu.github.io/portfolio/"
-                    >Visitar página
-                  </a>
-                </button>
-              </div>
-            </article>
-            <article data-aos="fade-right" class="fondosProyectos" id="quiz">
-              <div class="descripcionProyectos">
-                <h1>Quiz</h1>
-                <div class="descrripPro">
-                  <p>Descripción</p>
-                  <span>
-                    Proyecto para TheBridge para finalizar la parte del Front.
-                    Es un juego de preguntas. Las preguntas las consultamos
-                    mediante el consumo de una API de preguntas, posteriormente
-                    insertamos preguntas desde Firebase. La misma plataforma la
-                    usamos para dar de alta el usuario y la autentificación de
-                    cada usuario, guardando puntuación en la base de datos.
-                  </span>
-                </div>
+                        <div class="pildorasLenguajes">
+                           <img src="./media/css.png" class="hvr-bob" alt="Logo CSS" />
+                           <img src="./media/react.png" class="hvr-bob" alt="Logo REACT" />
+                        </div>
+                        <button class="hvr-sweep-to-right botonvisitarProyecto">
+                           <a href="https://tienda-parapentes-bootcamp.vercel.app">Visitar página </a>
+                        </button>
+                     </div>
+                  </article>
+                  <article data-aos="fade-right" class="fondosProyectos" id="porfolio">
+                     <div class="descripcionProyectos">
+                        <h1>React - Porfolio</h1>
+                        <div class="descrripPro">
+                           <p>Descripción</p>
+                           <span>
+                              Proyecto personal creado con REACT a petición de mi mentor, se trata de un porfolio donde se puede descargar el CV y ver algunas
+                              tecnologías que se conocen así como ver proyectos, todo esto usando los componentes.
+                           </span>
+                        </div>
 
-                <div class="pildorasLenguajes">
-                  <img src="./media/html.png" class="hvr-bob" alt="Logo HTML" />
-                  <img src="./media/css.png" class="hvr-bob" alt="Logo CSS" />
-                  <img
-                    src="./media/js.png"
-                    class="hvr-bob"
-                    alt="Logo JavaScript"
-                  />
-                  <img
-                    src="./media/firebase.png"
-                    class="hvr-bob"
-                    alt="Logo Firebase"
-                  />
-                </div>
-                <button class="hvr-sweep-to-right botonvisitarProyecto">
-                  <a href="https://alexcastu.github.io/preguntas/"
-                    >Visitar página
-                  </a>
-                </button>
-              </div>
-            </article>
-            <article data-aos="fade-right" class="fondosProyectos" id="rym">
-              <div class="descripcionProyectos">
-                <h1>Rick y Morty</h1>
-                <div class="descrripPro">
-                  <p>Descripción</p>
-                  <span>
-                    Pequelo ej para practicar uso de apis con la app de
-                    Rick&Morty.Solo Javascript , CSS y HTML
-                  </span>
-                </div>
+                        <div class="pildorasLenguajes">
+                           <img src="./media/html.png" class="hvr-bob" alt="Logo HTML" />
+                           <img src="./media/css.png" class="hvr-bob" alt="Logo CSS" />
+                           <img src="./media/react.png" class="hvr-bob" alt="Logo REACT" />
+                        </div>
+                        <button class="hvr-sweep-to-right botonvisitarProyecto">
+                           <a href="https://alexcastu.github.io/portfolio/">Visitar página </a>
+                        </button>
+                     </div>
+                  </article>
+                  <article data-aos="fade-right" class="fondosProyectos" id="quiz">
+                     <div class="descripcionProyectos">
+                        <h1>Quiz</h1>
+                        <div class="descrripPro">
+                           <p>Descripción</p>
+                           <span>
+                              Proyecto para TheBridge para finalizar la parte del Front. Es un juego de preguntas. Las preguntas las consultamos mediante el
+                              consumo de una API de preguntas, posteriormente insertamos preguntas desde Firebase. La misma plataforma la usamos para dar de
+                              alta el usuario y la autentificación de cada usuario, guardando puntuación en la base de datos.
+                           </span>
+                        </div>
 
-                <div class="pildorasLenguajes">
-                  <img src="./media/html.png" class="hvr-bob" alt="Logo HTML" />
-                  <img src="./media/css.png" class="hvr-bob" alt="Logo CSS" />
-                  <img
-                    src="./media/js.png"
-                    class="hvr-bob"
-                    alt="Logo JavaScript"
-                  />
-                </div>
-                <button class="hvr-sweep-to-right botonvisitarProyecto">
-                  <a href="https://alexcastu.github.io/R-M/">Visitar página </a>
-                </button>
-              </div>
-            </article>
-            <article
-              data-aos="fade-right"
-              class="fondosProyectos"
-              id="cronometro"
-            >
-              <div class="descripcionProyectos">
-                <h1>Cronometro</h1>
-                <div class="descrripPro">
-                  <p>Descripción</p>
-                  <span>
-                    Aplicación de cronómetro, usamos el LocalStorage para
-                    guardar las sesiones en local y así poder consultarlas a
-                    posteriori. Se guardan las vueltas siempre que guardas,
-                    tienes un temporizado de 10 segundos y puedes pausar y
-                    restablecer las veces que quieras.
-                  </span>
-                </div>
-                <div class="pildorasLenguajes">
-                  <img src="./media/html.png" class="hvr-bob" alt="Logo HTML" />
-                  <img src="./media/css.png" class="hvr-bob" alt="Logo CSS" />
-                  <img
-                    src="./media/js.png"
-                    class="hvr-bob"
-                    alt="Logo JavaScript"
-                  />
-                </div>
-                <button class="hvr-sweep-to-right botonvisitarProyecto">
-                  <a href="https://alexcastu.github.io/cronometro/"
-                    >Visitar página
-                  </a>
-                </button>
-              </div>
-            </article>
-            <article data-aos="fade-right" class="fondosProyectos" id="rampUp">
-              <div class="descripcionProyectos">
-                <h1>Ramp UP</h1>
-                <div class="descrripPro">
-                  <p>Descripción</p>
-                  <span>
-                    Primer ejercicio grande en TheBridge, consta de una página
-                    en la que desarrollamos los conocimientos adquiridos en la
-                    primera fase del BootCamp. Solo se podría usar HTML y CSS.
-                  </span>
-                </div>
+                        <div class="pildorasLenguajes">
+                           <img src="./media/html.png" class="hvr-bob" alt="Logo HTML" />
+                           <img src="./media/css.png" class="hvr-bob" alt="Logo CSS" />
+                           <img src="./media/js.png" class="hvr-bob" alt="Logo JavaScript" />
+                           <img src="./media/firebase.png" class="hvr-bob" alt="Logo Firebase" />
+                        </div>
+                        <button class="hvr-sweep-to-right botonvisitarProyecto">
+                           <a href="https://alexcastu.github.io/preguntas/">Visitar página </a>
+                        </button>
+                     </div>
+                  </article>
+                  <article data-aos="fade-right" class="fondosProyectos" id="rym">
+                     <div class="descripcionProyectos">
+                        <h1>Rick y Morty</h1>
+                        <div class="descrripPro">
+                           <p>Descripción</p>
+                           <span> Pequelo ej para practicar uso de apis con la app de Rick&Morty.Solo Javascript , CSS y HTML </span>
+                        </div>
 
-                <div class="pildorasLenguajes">
-                  <img src="./media/html.png" class="hvr-bob" alt="Logo HTML" />
-                  <img src="./media/css.png" class="hvr-bob" alt="Logo CSS" />
-                </div>
-                <button class="hvr-sweep-to-right botonvisitarProyecto">
-                  <a href="https://alexcastu.github.io/prueba-final-rampUp/"
-                    >Visitar página
-                  </a>
-                </button>
-              </div>
-            </article>
-            <article
-              data-aos="fade-right"
-              class="fondosProyectos"
-              id="perritos"
-            >
-              <div class="descripcionProyectos">
-                <h1>API Dog</h1>
-                <div class="descrripPro">
-                  <p>Descripción</p>
-                  <span>
-                    Primeras prácticas en JS de consumo de APIS usando "Fetch".
-                    Se trata de una aplicación que consume una API de perritos,
-                    en la cual hacemos varias consultas dependiendo de lo que
-                    busque el usuario. Consta de una parte que muestra todas las
-                    razas de perro, otra de una imagen aleatoria de la API y un
-                    select para el usuario que muestre la foto de la búsqueda.
-                  </span>
-                </div>
-                <div class="pildorasLenguajes">
-                  <img src="./media/html.png" class="hvr-bob" alt="Logo HTML" />
-                  <img src="./media/css.png" class="hvr-bob" alt="Logo CSS" />
-                  <img
-                    src="./media/js.png"
-                    class="hvr-bob"
-                    alt="Logo JavaScript"
-                  />
-                </div>
-                <button class="hvr-sweep-to-right botonvisitarProyecto">
-                  <a href="https://alexcastu.github.io/practicaFetch/"
-                    >Visitar página
-                  </a>
-                </button>
-              </div>
-            </article>
-          </div>
-        </section>
-      </main>
-      <footer id="contenedorFooter">
-        <div id="contacto">
-          <div>¿Tienes alguna sugerencia?</div>
-          <div><a href="mailto:alexcastu@gmail.com">Escribeme!</a></div>
-        </div>
-        <div id="proprietario">Página creada por Alex Constantin Castu</div>
-      </footer>
-    </div>
-    <script src="https://unpkg.com/scrollreveal"></script>
-  </body>
+                        <div class="pildorasLenguajes">
+                           <img src="./media/html.png" class="hvr-bob" alt="Logo HTML" />
+                           <img src="./media/css.png" class="hvr-bob" alt="Logo CSS" />
+                           <img src="./media/js.png" class="hvr-bob" alt="Logo JavaScript" />
+                        </div>
+                        <button class="hvr-sweep-to-right botonvisitarProyecto">
+                           <a href="https://alexcastu.github.io/R-M/">Visitar página </a>
+                        </button>
+                     </div>
+                  </article>
+                  <article data-aos="fade-right" class="fondosProyectos" id="cronometro">
+                     <div class="descripcionProyectos">
+                        <h1>Cronometro</h1>
+                        <div class="descrripPro">
+                           <p>Descripción</p>
+                           <span>
+                              Aplicación de cronómetro, usamos el LocalStorage para guardar las sesiones en local y así poder consultarlas a posteriori. Se
+                              guardan las vueltas siempre que guardas, tienes un temporizado de 10 segundos y puedes pausar y restablecer las veces que quieras.
+                           </span>
+                        </div>
+                        <div class="pildorasLenguajes">
+                           <img src="./media/html.png" class="hvr-bob" alt="Logo HTML" />
+                           <img src="./media/css.png" class="hvr-bob" alt="Logo CSS" />
+                           <img src="./media/js.png" class="hvr-bob" alt="Logo JavaScript" />
+                        </div>
+                        <button class="hvr-sweep-to-right botonvisitarProyecto">
+                           <a href="https://alexcastu.github.io/cronometro/">Visitar página </a>
+                        </button>
+                     </div>
+                  </article>
+                  <article data-aos="fade-right" class="fondosProyectos" id="rampUp">
+                     <div class="descripcionProyectos">
+                        <h1>Ramp UP</h1>
+                        <div class="descrripPro">
+                           <p>Descripción</p>
+                           <span>
+                              Primer ejercicio grande en TheBridge, consta de una página en la que desarrollamos los conocimientos adquiridos en la primera fase
+                              del BootCamp. Solo se podría usar HTML y CSS.
+                           </span>
+                        </div>
+
+                        <div class="pildorasLenguajes">
+                           <img src="./media/html.png" class="hvr-bob" alt="Logo HTML" />
+                           <img src="./media/css.png" class="hvr-bob" alt="Logo CSS" />
+                        </div>
+                        <button class="hvr-sweep-to-right botonvisitarProyecto">
+                           <a href="https://alexcastu.github.io/prueba-final-rampUp/">Visitar página </a>
+                        </button>
+                     </div>
+                  </article>
+                  <article data-aos="fade-right" class="fondosProyectos" id="perritos">
+                     <div class="descripcionProyectos">
+                        <h1>API Dog</h1>
+                        <div class="descrripPro">
+                           <p>Descripción</p>
+                           <span>
+                              Primeras prácticas en JS de consumo de APIS usando "Fetch". Se trata de una aplicación que consume una API de perritos, en la cual
+                              hacemos varias consultas dependiendo de lo que busque el usuario. Consta de una parte que muestra todas las razas de perro, otra
+                              de una imagen aleatoria de la API y un select para el usuario que muestre la foto de la búsqueda.
+                           </span>
+                        </div>
+                        <div class="pildorasLenguajes">
+                           <img src="./media/html.png" class="hvr-bob" alt="Logo HTML" />
+                           <img src="./media/css.png" class="hvr-bob" alt="Logo CSS" />
+                           <img src="./media/js.png" class="hvr-bob" alt="Logo JavaScript" />
+                        </div>
+                        <button class="hvr-sweep-to-right botonvisitarProyecto">
+                           <a href="https://alexcastu.github.io/practicaFetch/">Visitar página </a>
+                        </button>
+                     </div>
+                  </article>
+               </div>
+            </section>
+         </main>
+         <footer id="contenedorFooter">
+            <div id="contacto">
+               <div>¿Tienes alguna sugerencia?</div>
+               <div><a href="mailto:alexcastu@gmail.com">Escribeme!</a></div>
+            </div>
+            <div id="proprietario">Página creada por Alex Constantin Castu</div>
+         </footer>
+      </div>
+      <script src="https://unpkg.com/scrollreveal"></script>
+   </body>
 </html>
